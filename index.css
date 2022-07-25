@@ -103,6 +103,14 @@ mid-nav{
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
+mid-nav a{
+    color: #000;
+}
+mid-nav a:hover h5{
+    color: #fc391d;
+    border-left: 2px solid #fc391d;
+    border-right: 2px solid #fc391d;
+}
 /* .life .mid-img{
     height: 250px;
     display: flex;
@@ -124,6 +132,22 @@ mid-nav{
     margin-bottom: 20px;
     border-bottom: 3px solid #fc391d;
 }
+.newstext{
+    margin: 5px 0;
+}
+.news a{
+    color: #fc391d;
+    text-decoration: none;
+}
+.news a h5{
+    color: #000;
+}
+.news p{
+    color: #666;
+}
+.news .city:hover h5{
+    color: #fc391d;
+}
 .more-btn{
     text-align: center;
     background-color: #fc391d;
@@ -135,6 +159,9 @@ mid-nav{
 .more-btn a{
     text-decoration: none;
     color: white;
+}
+.more-btn:hover{
+    background-color: coral;
 }
 /* ----------------------------------最新/熱門活動結束---------------------------- */
 h2{
@@ -151,10 +178,23 @@ h2{
     border-bottom: 3px solid #fc391d;
     margin-bottom: 20px;
 }
+.exhibition-text{
+    margin: 5px 0;
+}
+.exhibition-text p{
+    color: #fc391d;
+}
 /* ----------------------------------展覽活動結束---------------------------- */
 .main-activity{
     background-color: #ffddd7;
     padding: 60px 0;
+}
+.main-activity a{
+    color: #000;
+    text-decoration: none;
+}
+.main-activity a:hover h5{
+    color: #fc391d;
 }
 /* ----------------------------------專題活動結束---------------------------- */
 .designer{
@@ -166,6 +206,12 @@ h2{
 }
 .d-right{
     flex-wrap: wrap;
+}
+.d-text{
+    margin: 5px 0;
+}
+.d-text p{
+    color: #fc391d;
 }
 /* ---------------------------------創意人結束---------------------------- */
 .books{
@@ -188,7 +234,7 @@ h2{
 }
 .b-btn{
     text-align: center;
-    background-color: coral;
+    background-color: #fc391d;
     width: 200px;
     border-radius: 5px;
     padding: 10px;
@@ -198,6 +244,9 @@ h2{
     text-decoration: none;
     color: white;
 }
+.b-btn:hover{
+    background-color: coral;
+}
 /* ---------------------------------新刊新書結束---------------------------- */
 footer{
     text-align: center;
@@ -206,4 +255,10 @@ footer{
 }
 footer a,footer p{
     color: #888;
+}
+footer .links a{
+    text-decoration: none;
+}
+footer .links a:hover{
+    color: #ccc;
 }
