@@ -88,14 +88,9 @@ main{
     object-fit: cover;
 }
 .btn{
-    position: absolute;
     transform: translateY(-50vh);
     justify-content: space-between;
-
-}
-.icon{
-    justify-content: space-between;
-    width: 30px;
+    font-size: 30px;
 }
 /* ----------------------------------主圖結束---------------------------- */
 mid-nav{
@@ -108,36 +103,34 @@ mid-nav{
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
-.life{
-    width: 100%;
-    height: 100%;
-
-}
-.life img{
-    width: 100%;
-    height: 100%;
+/* .life .mid-img{
+    height: 250px;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-}
+} */
 
 /* ----------------------------------中間欄結束---------------------------- */
-
-
+.news{
+    margin: 60px auto;
+}
 .news .menu .row{
     justify-content: center;
 }
+.latest{
+    color: #fc391d;
+}
 .news .menu{
     margin-bottom: 20px;
-    border-bottom: 3px solid coral;
+    border-bottom: 3px solid #fc391d;
 }
 .more-btn{
     text-align: center;
-    background-color: coral;
+    background-color: #fc391d;
     width: 300px;
     border-radius: 5px;
     padding: 5px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 .more-btn a{
     text-decoration: none;
@@ -152,9 +145,65 @@ h2{
     flex-wrap: wrap;
 }
 .exhibition{
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+}
+.exhibition .title{
+    border-bottom: 3px solid #fc391d;
+    margin-bottom: 20px;
+}
+/* ----------------------------------展覽活動結束---------------------------- */
+.main-activity{
+    background-color: #ffddd7;
+    padding: 60px 0;
 }
 /* ----------------------------------專題活動結束---------------------------- */
+.designer{
+    margin: 60px auto;
+}
+.designer .title{
+    border-bottom: 3px solid #fc391d;
+    margin-bottom: 20px;
+}
 .d-right{
     flex-wrap: wrap;
+}
+/* ---------------------------------創意人結束---------------------------- */
+.books{
+    padding: 60px 0;
+}
+.books h2{
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #fc391d;
+}
+.books .n-mag,.n-b{
+    flex-wrap: wrap;
+    background-color: #ededed;
+}
+.b-text,.b-img{
+    padding: 20px 20px;
+}
+.books h5,.small{
+    font-weight: bolder;
+}
+.b-btn{
+    text-align: center;
+    background-color: coral;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px auto;
+}
+.b-btn a{
+    text-decoration: none;
+    color: white;
+}
+/* ---------------------------------新刊新書結束---------------------------- */
+footer{
+    text-align: center;
+    background-color: #000;
+    padding: 60px 0;
+}
+footer a,footer p{
+    color: #888;
 }
