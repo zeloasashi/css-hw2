@@ -148,6 +148,10 @@ mid-nav a:hover h5{
 .news .city:hover h5{
     color: #fc391d;
 }
+.city{
+    display: flex;
+    flex-direction: column;
+}
 .more-btn{
     text-align: center;
     background-color: #fc391d;
