@@ -77,9 +77,24 @@ nav{
 }
 /* ----------------------------------nav結束---------------------------- */
 main{
-    margin-bottom: 5rem;
+    padding-bottom: 5rem;
 }
-.main-section{
+.carousel-item img{
+    /* height: 720px; */
+    padding-top: 120px;
+    height: 100vh;
+}
+@media screen and (max-width:720px){
+    .carousel-item img{
+        padding-top: 120px;
+        height: 320px;
+        /* aspect-ratio: 3 / 4; */
+    }
+    .carousel a{
+        opacity: 0;
+    }
+}
+/* .main-section{
     position: relative;
 }
 .main-img img{
@@ -91,7 +106,7 @@ main{
     transform: translateY(-50vh);
     justify-content: space-between;
     font-size: 30px;
-}
+} */
 /* ----------------------------------主圖結束---------------------------- */
 mid-nav{
     text-align: center;
@@ -110,6 +125,14 @@ mid-nav a:hover h5{
     color: #fc391d;
     border-left: 2px solid #fc391d;
     border-right: 2px solid #fc391d;
+}
+mid-nav .mid-img{
+    overflow: hidden;
+
+}
+mid-nav a:hover img{
+    transform: scale(1.1,1.1);
+    transition: .3s;
 }
 /* .life .mid-img{
     height: 250px;
@@ -200,6 +223,14 @@ h2{
 .main-activity a:hover h5{
     color: #fc391d;
 }
+@media screen and (max-width:720px) {
+    .main-activity .scroll-snap{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        /* overflow: hidden; */
+    }
+    
+}
 /* ----------------------------------專題活動結束---------------------------- */
 .designer{
     margin: 60px auto;
@@ -230,6 +261,11 @@ h2{
     flex-wrap: wrap;
     background-color: #ededed;
 }
+/* @media screen and (min-width:540px){
+    .n-mag{
+        height: 480px;
+    }
+} */
 .b-text,.b-img{
     padding: 20px 20px;
 }
@@ -240,6 +276,7 @@ h2{
     text-align: center;
     background-color: #fc391d;
     width: 200px;
+    height: 45px;
     border-radius: 5px;
     padding: 10px;
     margin: 30px auto;
