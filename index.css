@@ -43,9 +43,14 @@ nav{
 .min-max-nav{
     justify-content: flex-end;
 }
-.nav-links{
+.nav-links a{
     justify-content: flex-end;
+    font-size: 1.3rem;
+    transition: .3s;
 
+}
+.ncity:hover, .narchitect:hover, .ndesign:hover, .nfashion:hover, .nlife:hover, .ncreate:hover{
+    color: #fc391d;
 }
 .nav-right{
     padding-top: 25px;
@@ -55,9 +60,14 @@ nav{
     text-decoration: none;
 }
 .nav-right i{
-    font-size: 1.2rem;
-}
+    font-size: 1.5rem;
+    transition: .3s;
 
+}
+.fa-facebook-square:hover, .fa-instagram:hover, .fa-line:hover, .fa-youtube:hover{
+    color: #fc391d;
+
+}
 @media screen and (max-width:972px) {
     .links{
         justify-content: space-between;
