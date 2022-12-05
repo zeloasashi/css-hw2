@@ -121,7 +121,7 @@ mid-nav{
 mid-nav a{
     color: #000;
 }
-mid-nav a:hover h5{
+mid-nav .person:hover h5, mid-nav .life:hover h5, mid-nav .architect:hover h5, mid-nav .magzine:hover h5{
     color: #fc391d;
     border-left: 2px solid #fc391d;
     border-right: 2px solid #fc391d;
@@ -130,7 +130,7 @@ mid-nav .mid-img{
     overflow: hidden;
 
 }
-mid-nav a:hover img{
+mid-nav .person:hover img, mid-nav .life:hover img, mid-nav .architect:hover img, mid-nav .magzine:hover img{
     transform: scale(1.1,1.1);
     transition: .3s;
 }
