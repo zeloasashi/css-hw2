@@ -32,9 +32,11 @@ nav{
 }
 @media screen and (max-width:972px) {
     .nav-left{
-            border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
     }
-    
+    .links .fa-magnifying-glass{
+        color: #666;
+    }
 }
 .search{
     display: flex;
@@ -63,6 +65,9 @@ nav{
     font-size: 1.5rem;
     transition: .3s;
 
+}
+.links .fa-magnifying-glass{
+    font-size: 1.1rem;
 }
 .fa-facebook-square:hover, .fa-instagram:hover, .fa-line:hover, .fa-youtube:hover{
     color: #fc391d;
